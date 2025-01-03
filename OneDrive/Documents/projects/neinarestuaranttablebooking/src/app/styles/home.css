@@ -1,0 +1,48 @@
+/* src/styles/home.css */
+
+.home-page {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-page h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .home-page p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .book-now-btn {
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page {
+      padding: 20px;
+    }
+  
+    .book-now-btn {
+      width: 100%;
+    }
+  }
+  
